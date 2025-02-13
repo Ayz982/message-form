@@ -1,0 +1,2 @@
+import"./assets/style-C3eyyV9x.js";const t=document.querySelector(".feedback-form"),o=t.elements.message,a="goit-example-message";o.value=localStorage.getItem(a)??"";t.addEventListener("input",e=>{localStorage.setItem(a,e.target.value)});t.addEventListener("submit",e=>{e.preventDefault(),console.log(e.target.elements.message.value),localStorage.removeItem(a),t.reset()});
+//# sourceMappingURL=formPage.js.map
